@@ -93,17 +93,6 @@
 
 <hr/>
 
-<h3 align="center">Highlights</h3>
-
-<ul>
-  <li>Built an internal HR matching tool that uses AI to speed up staffing and candidate proposals.</li>
-  <li>Rolled out a production e‑commerce cloud stack in under two weeks.</li>
-  <li>As a lead, coordinated the parallel launch of 260+ websites with zero downtime at go‑live.</li>
-  <li>Worked on a biotech platform that later secured multi‑million funding.</li>
-</ul>
-
-<hr/>
-
 <h3 align="center">Currently exploring</h3>
 
 <p align="center">
