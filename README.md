@@ -1,7 +1,7 @@
 <h1 align="center">Hi there 👋</h1>
 
 <p align="center">
-  <b>Frontend‑first Full‑Stack Developer · Product‑minded · AI‑curious</b><br/>
+  <b>Full‑Stack Developer · Product‑minded · AI‑curious</b><br/>
   I design, ship, and iterate on modern web apps — from discovery to production.
 </p>
 
