@@ -1,23 +1,17 @@
-<!-- 
-<h1 align="center">Hi there 👋</h1>
-
-<p align="center">
-  <b>Full‑Stack Developer · Product‑minded · AI‑curious</b><br/>
-  I design, ship, and iterate on modern web apps — from discovery to production. I dont vibe code, i supervise agents<br/>
-</p>
--->
 
 <h1>👋 Hey, I'm Vince</h1>
 
-I’m a builder at heart — I love turning ideas into clean, useful software and learning something new every time I ship.
-Currently focused on automation, scalable systems, and making tech feel simple. 
+<p>I’m a builder at heart — I love turning ideas into clean, useful software and learning something new every time I ship.</p>
+<p>Always focused on automation, scalable systems, and making tech feel simple.</p>
 
 <p>
   <b>🚀 What I’m into:</b><br/>
-  ⚙️ Building tools that make work faster & smoother<br/>
-  🧠 Learning + experimenting (a lot)<br/>
-  🛠️ Writing code that’s clean, practical, and maintainable<br/>
-  📈 Improving things step by step, always<br/>
+  <ul style="list-type:none;">
+    <li>⚙️ Building tools that make work faster & smoother</li>
+    <li>🧠 Learning + experimenting (a lot)</li>
+    <li>🛠️ Writing code that’s clean, practical, and maintainable</li>
+    <li>📈 Improving things step by step, always</li>
+  </ul>
 </p>
 
 <p>
@@ -135,7 +129,7 @@ If you want to build something together or just chat tech:
 <h3 align="center">Currently exploring</h3>
 
 <p align="center">
-  LLM pre‑training · RAG & multimodal retrieval · Multi‑agent systems · Practical MLOps · Containerized dev workflows
+  Building a platform called Sylia  · Running Code Agents · LLM pre‑training · RAG & multimodal retrieval · Multi‑agent systems · Practical MLOps · Containerized dev workflows 
 </p>
 
 <p align="center">
