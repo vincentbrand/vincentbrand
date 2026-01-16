@@ -1,8 +1,47 @@
+<!-- 
 <h1 align="center">Hi there 👋</h1>
 
 <p align="center">
   <b>Full‑Stack Developer · Product‑minded · AI‑curious</b><br/>
-  I design, ship, and iterate on modern web apps — from discovery to production.
+  I design, ship, and iterate on modern web apps — from discovery to production. I dont vibe code, i supervise agents<br/>
+</p>
+-->
+
+<h1>👋 Hey, I'm Vince</h1>
+
+I’m a builder at heart — I love turning ideas into clean, useful software and learning something new every time I ship.
+Currently focused on automation, scalable systems, and making tech feel simple. 
+
+<p>
+  <b>🚀 What I’m into:</b><br/>
+  ⚙️ Building tools that make work faster & smoother<br/>
+  🧠 Learning + experimenting (a lot)<br/>
+  🛠️ Writing code that’s clean, practical, and maintainable<br/>
+  📈 Improving things step by step, always<br/>
+</p>
+
+<p>
+  <b>🧰 Tech I work with</b><br/>
+  Standard Languages & Tools:<br/>
+  JavaScript · TypeScript · Python · Node.js · SQL · Git · Docker<br/>  
+</p>
+
+Also enjoy:
+APIs, integrations, automation workflows, and anything that saves people time.
+
+📌 Currently
+
+🔭 Working on projects that mix productivity + engineering
+
+🌱 Leveling up in architecture & performance
+
+💡 Always open to cool collaborations
+
+🤝 Let’s connect
+
+If you want to build something together or just chat tech:
+📫 Reach me here on GitHub (or drop your link/social and I’ll format it nicely)
+  
 </p>
 
 <hr/>
