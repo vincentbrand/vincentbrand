@@ -20,31 +20,22 @@
   JavaScript · TypeScript · Python · Node.js · SQL · Git · Docker<br/>  
 </p>
 
-Also enjoy:
-APIs, integrations, automation workflows, and anything that saves people time.
 
-📌 Currently
-
-🔭 Working on projects that mix productivity + engineering
-
-🌱 Leveling up in architecture & performance
-
-💡 Always open to cool collaborations
-
-🤝 Let’s connect
-
-If you want to build something together or just chat tech:
-📫 Reach me here on GitHub (or drop your link/social and I’ll format it nicely)
-  
+<p>
+  <b>📌 Currently:</b><br/>
+  <ul style="list-type:none;">
+    <li>🔭 Working on projects that mix productivity + engineering</li>
+    <li>🌱 Leveling up in architecture & performance</li>
+    <li>💡 Always open to cool collaborations</li>
+  </ul>
 </p>
 
-<hr/>
 
-<h3 align="center">Focus</h3>
-
-<p align="center">
-  Product thinking · Agile & Scrum · Rapid prototyping · Component‑driven UIs · Data‑aware features · Practical AI integration
-</p>
+<div style="text-align:center">
+  <h4>🤝 Let’s connect</h4>  
+  <p>If you want to build something together or just chat tech:</p>
+  <p>📫 Reach me here on GitHub (or drop your link/social and I’ll format it nicely)</p>
+</div>
 
 <hr/>
 
