@@ -17,7 +17,7 @@
 <p>
   <b>🧰 Tech I work with</b><br/>
   Standard Languages & Tools:<br/>
-  JavaScript · TypeScript · Python · Node.js · SQL · Git · Docker<br/>  
+  JavaScript · TypeScript · Python · PHP · Node.js · SQL · Git · Docker<br/>  
 </p>
 
 
