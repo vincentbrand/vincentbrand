@@ -119,7 +119,7 @@
 <h3 align="center">Currently exploring</h3>
 
 <p align="center">
-  Building a platform called Sylia  · Running Code Agents · LLM pre‑training · RAG & multimodal retrieval · Multi‑agent systems · Practical MLOps · Containerized dev workflows 
+  Building a neurosymbolic database called Oxid-DB · Building a platform called Tenderbyte · Running Code Agents · Agentic Development
 </p>
 
 <p align="center">
