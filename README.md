@@ -23,9 +23,8 @@
 
 <p>
   <b>📌 Currently:</b><br/>
-  <ul style="list-type:none;">
-    <li>🔭 Working on projects that mix productivity + engineering</li>
-    <li>🌱 Leveling up in architecture & performance</li>
+  <ul style="list-type:none;">    
+    <li>🔭 Working on Oxid-DB, a neurosymbolic database</li>
     <li>💡 Always open to cool collaborations</li>
   </ul>
 </p>
