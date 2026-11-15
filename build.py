@@ -23,7 +23,7 @@ from xml.sax.saxutils import escape
 # ----------------------------------------------------------------------------
 # CONFIG: edit this part
 # ----------------------------------------------------------------------------
-TITLE = "vince@moonlightarray"
+TITLE = "Vincent Brand, Founder, Software Engineer"
 
 # Each section is (heading or None, [(key, value), ...]).
 # A key may contain dots, e.g. "Languages.Real".
@@ -37,7 +37,7 @@ SECTIONS = [
         ("Kernel", "Solo founder, building OxidDB"),
         ("IDE", "VS Code, Claude Code"),
         None,
-        ("Languages.Programming", "Rust, Python, TypeScript"),
+        ("Languages.Programming", "Rust, Python, Vue, TypeScript"),
         ("Languages.Real", "Dutch, English, Mandarin"),
         None,
         ("Projects.OxidDB", "Neurosymbolic database engine"),
@@ -47,7 +47,7 @@ SECTIONS = [
     ("Contact", [
         ("Website", "vincentbrand.com"),
         ("Company", "moonlightarray.com"),
-        ("LinkedIn", "your-linkedin-handle"),
+        ("LinkedIn", "vincentbrand-nl"),
     ]),
 ]
 
