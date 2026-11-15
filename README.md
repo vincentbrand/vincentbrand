@@ -131,3 +131,6 @@
 <p align="center">
   <i>Like what you see? ⭐️ Star a repo, open an issue, or drop feedback in Discussions.</i>
 </p>
+
+
+<details><summary>Half year calendar</summary><img src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.svg" alt=""></img></details>
