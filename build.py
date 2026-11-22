@@ -27,14 +27,14 @@ from xml.sax.saxutils import escape
 # ----------------------------------------------------------------------------
 NAME = "Vincent Brand"
 LINES = [
-    "Founder and software engineer at Moonlight Array, Arnhem NL",
+    "Founder from the Netherlands",
     "Building OxidDB, the database that thinks in two minds",
 ]
 # Shown in code style above the name. Words in QUERY_KEYWORDS get the accent colour.
 QUERY = 'FIND ?x WHERE ?x IS-A Founder NEAR ?x TO "neurosymbolic"'
 QUERY_KEYWORDS = {"FIND", "WHERE", "IS-A", "NEAR", "TO"}
 # Labelled "symbol" nodes inside the brain (keep it to 4-6 short words).
-SYMBOLS = ["Rust", "Python", "Vue", "TypeScript", "OxidDB"]
+SYMBOLS = ["Rust", "Python", "OxQL", "TypeScript", "OxidDB"]
 LINKS = ["vincentbrand.com", "oxid-db.com", "linkedin.com/in/vincentbrand-nl"]  # keep it short, the row is 444px wide
 
 THEMES = {
