@@ -34,7 +34,7 @@ LINES = [
 QUERY = 'FIND ?x WHERE ?x IS-A Founder NEAR ?x TO "neurosymbolic"'
 QUERY_KEYWORDS = {"FIND", "WHERE", "IS-A", "NEAR", "TO"}
 # Labelled "symbol" nodes inside the brain (keep it to 4-6 short words).
-SYMBOLS = ["Rust", "Python", "OxQL", "TypeScript", "OxidDB"]
+SYMBOLS = ["Rust", "Python", "OxQL", "TypeScript", "Oxid-DB"]
 LINKS = ["vincentbrand.com", "oxid-db.com", "linkedin.com/in/vincentbrand-nl"]  # keep it short, the row is 444px wide
 
 THEMES = {
