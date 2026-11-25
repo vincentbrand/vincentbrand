@@ -28,7 +28,7 @@ from xml.sax.saxutils import escape
 NAME = "Vincent Brand"
 LINES = [
     "Founder from the Netherlands",
-    "Building OxidDB, the database that thinks in two minds",
+    "Building Oxid-DB, the neurosymbolic database",
 ]
 # Shown in code style above the name. Words in QUERY_KEYWORDS get the accent colour.
 QUERY = 'FIND ?x WHERE ?x IS-A Founder NEAR ?x TO "neurosymbolic"'
