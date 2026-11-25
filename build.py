@@ -118,13 +118,15 @@ def fetch_stats(user, token):
         cursor = page["pageInfo"]["endCursor"]
 
     # One contributions window per calendar year (the API allows one year at most),
-    # plus the last 7 days and the last 52 weeks.
+    # plus the last 7 days, the last 30 days and the last 52 weeks.
     parts = []
     for year in base["contributionsCollection"]["contributionYears"]:
         parts.append('y{0}: contributionsCollection(from: "{0}-01-01T00:00:00Z", '
                      'to: "{0}-12-31T23:59:59Z") {{ {1} }}'.format(year, COUNTS))
     parts.append('week: contributionsCollection(from: "{}", to: "{}") {{ {} }}'.format(
         iso(now - datetime.timedelta(days=7)), iso(now), COUNTS))
+    parts.append('month: contributionsCollection(from: "{}", to: "{}") {{ {} }}'.format(
+        iso(now - datetime.timedelta(days=30)), iso(now), COUNTS))
     parts.append('year: contributionsCollection(from: "{}", to: "{}") {{ {} '
                  'contributionCalendar {{ weeks {{ contributionDays {{ contributionCount }} }} }} }}'
                  .format(iso(now - datetime.timedelta(weeks=52)), iso(now), COUNTS))
@@ -144,6 +146,7 @@ def fetch_stats(user, token):
     return {
         "commits": public + private,
         "last_week": commits_in(data["week"]),
+        "last_month": commits_in(data["month"]),
         "weekly_avg": commits_in(data["year"]) / 52,
         "repos": repos,
         "stars": stars,
@@ -156,8 +159,9 @@ def fetch_stats(user, token):
 def sample_stats():
     rng = random.Random(3)
     weeks = [max(0, int(rng.gauss(24, 14))) for _ in range(52)]
-    return {"commits": 4812, "last_week": 37, "weekly_avg": 24.6, "repos": 42, "stars": 128,
-            "followers": 64, "weeks": weeks, "synced": datetime.date.today().isoformat()}
+    return {"commits": 4812, "last_week": 37, "last_month": 112, "weekly_avg": 24.6,
+            "repos": 42, "stars": 128, "followers": 64, "weeks": weeks,
+            "synced": datetime.date.today().isoformat()}
 
 
 # ------------------------------- the brain ----------------------------------
@@ -301,7 +305,7 @@ def draw_panel(stats):
 
     fmt = "{:,}".format
     tiles = [
-        (fmt(stats["commits"]), "commits, all time"),
+        (fmt(stats["last_month"]), "commits, 30 days"),   # the caption row is 152px wide
         (fmt(stats["last_week"]), "last 7 days"),
         ("{:,.1f}".format(stats["weekly_avg"]), "weekly average"),
         (fmt(stats["repos"]), "repositories"),
@@ -366,8 +370,9 @@ text {{ font-family: {sans}; fill: {text}; }}
     out = [
         '<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" '
         'role="img" aria-label="{label}">'.format(
-            w=WIDTH, h=HEIGHT, label=escape("{}: {:,} commits, {:,} in the last 7 days".format(
-                NAME, stats["commits"], stats["last_week"]))),
+            w=WIDTH, h=HEIGHT, label=escape(
+                "{}: {:,} commits in the last 30 days, {:,} in the last 7 days".format(
+                    NAME, stats["last_month"], stats["last_week"]))),
         "<style>" + css + "</style>",
         '<defs><radialGradient id="glow" cx="50%" cy="50%" r="50%">'
         '<stop offset="0" stop-color="{glow}" stop-opacity="{glow_opacity}"/>'
